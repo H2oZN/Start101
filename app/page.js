@@ -1,4 +1,5 @@
 import Custom from "@/Components/Custom";
+import MathS from "@/Components/MathS";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
         This is My Page
       </h1>
       <Custom />
+      <div>
+        <MathS />
+      </div>
     </div>
   );
 }
