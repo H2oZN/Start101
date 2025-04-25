@@ -1,6 +1,3 @@
-import React from "react";
-import classes from "@/Components/Maths.modules.css";
-
 export default function MathS() {
   const Name = "H2o";
   const Mid = 20;
