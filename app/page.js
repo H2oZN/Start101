@@ -10,7 +10,7 @@ export default function Home() {
         <div>
           <div className="flex flex-col justify-center items-center min-h-screen ">
             <Allproduct />
-            KTesting from Notebook
+            
           </div>
         </div>
       </body>
