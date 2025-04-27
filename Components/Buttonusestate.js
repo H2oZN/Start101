@@ -12,7 +12,7 @@ export default function ButtonUS() {
     return (
         <div className="flex flex-col justify-start items-center w-screen h-screen mx-auto">
             <div className="text-5xl my-4">{state}
-                <BWrap></BWrap>
+                <BWrap><button onClick={handler}>click</button></BWrap>
             </div>
         </div>
     );
