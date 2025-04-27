@@ -1,7 +1,7 @@
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 import Allproduct from "@/Components/Allproduct";
-import MyWrap from "@/Components/MyWrapper";
+
 import Button from "@/Components/Button";
 
 export default function Home() {
@@ -14,8 +14,10 @@ export default function Home() {
 
 
             {/* <Allproduct /> */}
+
             {/* <MyWrap>Hello</MyWrap>
             <MyWrap>This is my world</MyWrap> */}
+
             <Button/>
 
 
