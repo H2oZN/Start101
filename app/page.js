@@ -12,19 +12,11 @@ export default function Home() {
       <body>
         <div>
           <div className="flex flex-col justify-center items-center min-h-screen ">
-
-
             {/* <Allproduct /> */}
-
             {/* <MyWrap>Hello</MyWrap>
             <MyWrap>This is my world</MyWrap> */}
-
-            <Button/>
-            <ButtonSet/>
-            test clone project on pc
-
-
-            
+            {/* <Button/>
+            <ButtonSet/> */}
           </div>
         </div>
       </body>

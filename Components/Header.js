@@ -5,12 +5,11 @@ export default function Page() {
       <div className="flex m-3 justify-between font-extrabold items-center">
         <div>H2o</div>
         <div>
-          <div class="flex items-center justify-center bg-gray-100">
+          <div class="flex items-center justify-center ">
             <div class="w-full max-w-xs">
               <div class="relative">
                 <input
                   type="text"
-                  placeholder="Search..."
                   class="w-full pl-9 pr-3 py-1.5 text-sm rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-sm"
                 />
                 <div class="absolute inset-y-0 left-0 flex items-center pl-2">
