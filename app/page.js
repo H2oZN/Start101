@@ -1,7 +1,8 @@
+import Dice from "@/Components/Dice";
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
 // import Allproduct from "@/Components/Allproduct";
-import ChangeLa from "@/Components/ChangeLA";
+// import ChangeLa from "@/Components/ChangeLA";
 // import Button from "@/Components/Button";
 // import ButtonSet from "@/Components/Buttonusestate";
 
@@ -17,7 +18,8 @@ export default function Home() {
             <MyWrap>This is my world</MyWrap> */}
             {/* <Button/>
             <ButtonSet/> */}
-            <ChangeLa/>
+            {/* <ChangeLa/> */}
+            <Dice/>
           </div>
         </div>
       </body>
