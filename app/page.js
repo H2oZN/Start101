@@ -1,9 +1,9 @@
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
-import Allproduct from "@/Components/Allproduct";
-
-import Button from "@/Components/Button";
-import ButtonSet from "@/Components/Buttonusestate";
+// import Allproduct from "@/Components/Allproduct";
+import ChangeLa from "@/Components/ChangeLA";
+// import Button from "@/Components/Button";
+// import ButtonSet from "@/Components/Buttonusestate";
 
 export default function Home() {
   return (
@@ -17,6 +17,7 @@ export default function Home() {
             <MyWrap>This is my world</MyWrap> */}
             {/* <Button/>
             <ButtonSet/> */}
+            <ChangeLa/>
           </div>
         </div>
       </body>
