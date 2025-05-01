@@ -1,6 +1,8 @@
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
-import MyParent from "@/Components/MyParent";
+import HomePage from "@/Components/HPCC";
+
+// import MyParent from "@/Components/MyParent";
 // import Dice from "@/Components/Dice";
 // import Plist from "@/Components/Plist";
 // import Allproduct from "@/Components/Allproduct";
@@ -23,7 +25,8 @@ export default function Home() {
             {/* <ChangeLa/> */}
             {/* <Dice/> */}
             {/* <Plist/> */}
-            <MyParent/>
+            {/* <MyParent/> */}
+            <HomePage/>
           </div>
         </div>
       </body>
