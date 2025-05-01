@@ -1,7 +1,8 @@
-// import Dice from "@/Components/Dice";
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
-import Plist from "@/Components/Plist";
+import MyParent from "@/Components/MyParent";
+// import Dice from "@/Components/Dice";
+// import Plist from "@/Components/Plist";
 // import Allproduct from "@/Components/Allproduct";
 // import ChangeLa from "@/Components/ChangeLA";
 // import Button from "@/Components/Button";
@@ -21,7 +22,8 @@ export default function Home() {
             <ButtonSet/> */}
             {/* <ChangeLa/> */}
             {/* <Dice/> */}
-            <Plist/>
+            {/* <Plist/> */}
+            <MyParent/>
           </div>
         </div>
       </body>

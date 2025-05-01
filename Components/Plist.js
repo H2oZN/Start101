@@ -39,7 +39,11 @@ export default function Plist() {
         return (
             <div className="text-red-500 text-2xl flex flex-col justify-center items-center w-screen h-screen mx-auto">
                 No products available
+                <div className="flex flex-col justify-center items-center w-screen h-screen mx-auto">
+                <button onClick={() => setProducts(productsData)} className="mt-4 py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600">Reset</button>
             </div>
+            </div>
+            
         )
     }
     return (
