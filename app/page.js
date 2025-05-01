@@ -16,7 +16,7 @@ export default function Home() {
       <Header />
       <body>
         <div>
-          <div className="flex flex-col justify-center items-center min-h-screen ">
+          <div >
             {/* <Allproduct /> */}
             {/* <MyWrap>Hello</MyWrap>
             <MyWrap>This is my world</MyWrap> */}
