@@ -1,14 +1,7 @@
 import Footer from "@/Components/Footer";
 import Header from "@/Components/Header";
-import HomePage from "@/Components/HPCC";
+import HomePageCC from "@/Components/HomepageCC";
 
-// import MyParent from "@/Components/MyParent";
-// import Dice from "@/Components/Dice";
-// import Plist from "@/Components/Plist";
-// import Allproduct from "@/Components/Allproduct";
-// import ChangeLa from "@/Components/ChangeLA";
-// import Button from "@/Components/Button";
-// import ButtonSet from "@/Components/Buttonusestate";
 
 export default function Home() {
   return (
@@ -16,18 +9,7 @@ export default function Home() {
       <Header />
       <body>
         <div>
-          <div >
-            {/* <Allproduct /> */}
-            {/* <MyWrap>Hello</MyWrap>
-            <MyWrap>This is my world</MyWrap> */}
-            {/* <Button/>
-            <ButtonSet/> */}
-            {/* <ChangeLa/> */}
-            {/* <Dice/> */}
-            {/* <Plist/> */}
-            {/* <MyParent/> */}
-            <HomePage/>
-          </div>
+            <HomePageCC/>
         </div>
       </body>
       <Footer />
