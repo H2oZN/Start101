@@ -45,7 +45,7 @@ export default function AllProducts() {
             <div className="flex flex-col  w-full sm:w-6/12 border-2 border-gray-400 p-3 sm:-3 shadow-md">
             <h3>Products</h3>
             {
-                data.map((item,index) => {
+                data.map((item) => {
                     return< Product
                     key={item.id}
                     data={item}
